@@ -1,0 +1,26 @@
+{
+    "action": "addNote",
+    "version": 6,
+    "params": {
+        "note": {
+            "deckName": "test1",
+            "modelName": "Basic",
+            "fields": {
+                "Front": "front content222",
+                "Back": "back content222"
+            },
+            "options": {
+                "allowDuplicate": true,
+                "duplicateScope": "deck",
+                "duplicateScopeOptions": {
+                    "deckName": "Default",
+                    "checkChildren": false,
+                    "checkAllModels": false
+                }
+            },
+            "tags": [
+                "yomichan"
+            ]
+        }
+    }
+}
